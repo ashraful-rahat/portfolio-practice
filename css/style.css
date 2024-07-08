@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    margin: 0;
+    /* padding: 0; */
+}
+header{
+    background-image: url(../images/header_bg.png),url(../images/developer.png);
+ 
+    background-color: #FFF8F3;
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+.btn-primary{
+    border-radius: 5px;
+    background: rgb(253, 110, 10);
+    color: white;
+    width: 100px;
+    height: 40px;
+    border: none;
+}
+.nav-title{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 200px 0px 150px;
+}
+.nav-title h2{
+    font-weight: 800;
+    font-family: open-sans;
+    font-size: 45px;
+    margin-top: 60px;
+}
+
+.nav-title span{
+    color: rgb(253, 110, 10);;
+}
+.nav-items{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 35px;
+    margin-top: 50px;
+   
+}
+.nav-items  ul li a {
+    text-decoration: none;
+    font-family: open-sans;
+    
+}
+.banner{
+    display: flex;
+    margin-right: 200px;
+    align-items: center;
+}
+.banner-info{
+    margin-left: 150px;
+}
+.banner-title{
+    color: rgb(71, 71, 71);
+font-family: Open Sans;
+font-size: 50px;
+font-weight: 600;
+line-height: 61px;
+letter-spacing: 0%;
+text-align: left;
+}
+.banner-name{
+    color: rgb(24, 24, 24);
+font-family: Open Sans;
+font-size: 75px;
+font-weight: 700;
+line-height: 116px;
+letter-spacing: 0%;
+text-align: left;
+}
+.banner-des{
+    color: rgb(117, 117, 117);
+font-family: Open Sans;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+}
+.btn-primaryy{
+    border-radius: 5px;
+    background: rgb(253, 110, 10);
+    color: white;
+    width: 100px;
+    height: 40px;
+    border: none;
+    margin-top: 15px;
+    font-weight: 600;
+    font-family: open-sans;
+}
+.btn-contact{
+    border-radius: 5px;
+    color: rgb(253, 110, 10);
+    background: white;
+    width: 100px;
+    height: 40px;
+    border: 1px solid rgb(253, 110, 10);
+    margin-top: 15px;
+    margin-left: 15px;
+    font-weight: 600;
+    font-family: open-sans;
+}
+.about-info-container{
+    display: flex;
+}
+.about-section{
+
+ margin-top: 35px;
+ max-width: 1140px;
+ margin: 0 auto;
+ padding: 150px 130px;
+ background-color: #FFF8F3;
+ align-items: center;
+
+
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about{
+     margin-top: 130px;
+     background: #FFF8F3;
+     border-radius: 10px;
+     padding: 130px 150px;
+
+}
+.about-title{
+     text-align: center;
+     margin-bottom: 30px;
+     font-weight: 700;
+     font-size: 35px;
+}
+.about-des{
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.info-title{
+    font-size: 20px;
+    color: #757575;
+    padding-left: 5px;
+}
+.info-des{
+    font-size: 20px;
+    font-weight: 700;
+    color: #474747;
+}
+
+          /* what-i-do */
+.what-i-do{
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 130px;
+
+
+}
+.about-des2{
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+    text-align: center;
+   
+
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+    width: 1150px;
+    height: 350px;
+    border: 2px solid white;
+    border-radius: 5px;
+    /* margin-bottom: 20px; */
+
+}
+.skill{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0,0,0,0.06);
+}
+.skill-title{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.images{
+    padding: 20px;
+}
+.skill-info{
+    color: rgb(117, 117, 117);
+font-family: Open Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0%;
+margin-left: 15px;
+margin-top: 15px;
+}
+.resume-container{
+    display: flex;
+    gap: 25px;
+}
+.resume{
+   
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about-title{
+    margin-top: 120px;
+}
+.resume-title{
+    margin-bottom: 18px;
+    font-weight: 600;
+}
+.title{
+    margin-top: 10px;
+    
+}
+.sub-title{
+    margin-bottom: 15px;
+    color: #474747;
+    /* gap: 15px; */
+}
+.description{
+    color: #474747;
+    font-size: 18px;
+    /* gap: 15px; */
+}
+.btn-primaryyy{
+    border-radius: 5px;
+    background: rgb(253, 110, 10);
+    color: white;
+    width: 100px;
+    height: 40px;
+    border: none;
+    margin-top: 15px;
+    font-weight: 600;
+    font-family: open-sans;
+    margin-left: 500px;
+    margin-top: 25px;
+   
+
+}
